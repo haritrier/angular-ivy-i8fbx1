@@ -1,0 +1,14 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<div>
+<!-- Hello, Padma -->
+<h1>Hello, {{customer}}</h1>
+<ul>
+  <!-- Ebony and Chiho in a list-->
+  <li *ngFor="let customer of customers">{{ customer.value }}</li>
+</ul>
+</div>
+<h1>{{title}}</h1>
+<app-heroes></app-heroes>
